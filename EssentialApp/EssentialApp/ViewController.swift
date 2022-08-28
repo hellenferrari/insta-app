@@ -1,11 +1,5 @@
-//
-//  ViewController.swift
-//  EssentialApp
-//
-//  Created by Hellen on 2022-08-28.
-//
-
 import UIKit
+import EssentialFeed
 
 class ViewController: UIViewController {
 
