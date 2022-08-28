@@ -5,6 +5,7 @@
 import UIKit
 import EssentialFeed
 import Authorization
+import Messaging
 
 class ViewController: UIViewController {
 
