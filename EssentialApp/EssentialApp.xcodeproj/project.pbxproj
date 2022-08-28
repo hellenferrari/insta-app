@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7452B6FD28BC379D001A81D3 /* Authorization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7452B6FC28BC379D001A81D3 /* Authorization.framework */; };
+		7452B6FE28BC379D001A81D3 /* Authorization.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7452B6FC28BC379D001A81D3 /* Authorization.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		74D1B28628BBFCC900B8440B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1B28528BBFCC900B8440B /* AppDelegate.swift */; };
 		74D1B28828BBFCC900B8440B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1B28728BBFCC900B8440B /* SceneDelegate.swift */; };
 		74D1B28A28BBFCC900B8440B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1B28928BBFCC900B8440B /* ViewController.swift */; };
@@ -35,6 +37,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				7452B6FE28BC379D001A81D3 /* Authorization.framework in Embed Frameworks */,
 				74D1B2E228BC03FC00B8440B /* EssentialFeed.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -43,6 +46,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7452B6FC28BC379D001A81D3 /* Authorization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Authorization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D1B28228BBFCC900B8440B /* EssentialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D1B28528BBFCC900B8440B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74D1B28728BBFCC900B8440B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7452B6FD28BC379D001A81D3 /* Authorization.framework in Frameworks */,
 				74D1B2E128BC03FC00B8440B /* EssentialFeed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -120,6 +125,7 @@
 		74D1B2D728BBFD6A00B8440B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7452B6FC28BC379D001A81D3 /* Authorization.framework */,
 				74D1B2E028BC03FC00B8440B /* EssentialFeed.framework */,
 				74D1B2D828BBFD6A00B8440B /* EssentialFeed.framework */,
 			);

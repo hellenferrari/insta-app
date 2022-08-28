@@ -4,6 +4,7 @@
 
 import UIKit
 import EssentialFeed
+import Authorization
 
 class ViewController: UIViewController {
 
