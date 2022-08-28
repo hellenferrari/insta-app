@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7452B6D828BC2CA0001A81D3 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7452B6D728BC2CA0001A81D3 /* FeedLoader.swift */; };
 		74D1B2C828BBFD0D00B8440B /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74D1B2BF28BBFD0C00B8440B /* EssentialFeed.framework */; };
 		74D1B2CD28BBFD0D00B8440B /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1B2CC28BBFD0D00B8440B /* EssentialFeedTests.swift */; };
 		74D1B2E528BC18CD00B8440B /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1B2E428BC18CD00B8440B /* FeedItem.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7452B6D728BC2CA0001A81D3 /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 		74D1B2BF28BBFD0C00B8440B /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D1B2C728BBFD0D00B8440B /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D1B2CC28BBFD0D00B8440B /* EssentialFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedTests.swift; sourceTree = "<group>"; };
@@ -48,6 +50,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7452B6D928BC2D99001A81D3 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				7452B6D728BC2CA0001A81D3 /* FeedLoader.swift */,
+				74D1B2E428BC18CD00B8440B /* FeedItem.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
 		74D1B2B528BBFD0C00B8440B = {
 			isa = PBXGroup;
 			children = (
@@ -69,7 +80,7 @@
 		74D1B2C128BBFD0C00B8440B /* EssentialFeed */ = {
 			isa = PBXGroup;
 			children = (
-				74D1B2E428BC18CD00B8440B /* FeedItem.swift */,
+				7452B6D928BC2D99001A81D3 /* Domain */,
 			);
 			path = EssentialFeed;
 			sourceTree = "<group>";
@@ -191,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7452B6D828BC2CA0001A81D3 /* FeedLoader.swift in Sources */,
 				74D1B2E528BC18CD00B8440B /* FeedItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,9 +365,11 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hferrari.EssentialFeed;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -383,9 +397,11 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hferrari.EssentialFeed;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -401,12 +417,15 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PU625P2UW3;
 				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hferrari.EssentialFeedTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -418,12 +437,15 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PU625P2UW3;
 				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hferrari.EssentialFeedTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
