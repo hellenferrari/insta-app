@@ -1,8 +1,5 @@
 //
-//  EssentialAppUITests.swift
-//  EssentialAppUITests
-//
-//  Created by Hellen on 2022-08-28.
+// Copyright © Hellen Ferrari. All rights reserved.
 //
 
 import XCTest

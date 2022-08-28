@@ -1,3 +1,7 @@
+//
+// Copyright © Hellen Ferrari. All rights reserved.
+//
+
 import UIKit
 import EssentialFeed
 

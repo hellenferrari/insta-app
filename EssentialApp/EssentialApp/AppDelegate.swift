@@ -1,8 +1,5 @@
 //
-//  AppDelegate.swift
-//  EssentialApp
-//
-//  Created by Hellen on 2022-08-28.
+// Copyright © Hellen Ferrari. All rights reserved.
 //
 
 import UIKit
