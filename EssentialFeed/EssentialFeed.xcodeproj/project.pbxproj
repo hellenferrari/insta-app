@@ -90,8 +90,8 @@
 		74D1B2C128BBFD0C00B8440B /* EssentialFeed */ = {
 			isa = PBXGroup;
 			children = (
-				7430C14A28C55123005FD08F /* Feed API */,
 				7452B6D928BC2D99001A81D3 /* Domain */,
+				7430C14A28C55123005FD08F /* Feed API */,
 			);
 			path = EssentialFeed;
 			sourceTree = "<group>";
