@@ -90,7 +90,7 @@ final class URLSessionHTTPClientTests: XCTestCase {
         let sut = makeSUT(file: file, line: line)
 
         switch result {
-        case let.failure(error):
+        case let .failure(error):
             return error
         default:
             XCTFail("Expected failure, got \(result) instead", file: file, line: line)
@@ -102,7 +102,7 @@ final class URLSessionHTTPClientTests: XCTestCase {
         let result = resultFor(data: data, response: response, error: error, file: file, line: line)
         
         switch result {
-        case let.success(data, response):
+        case let .success(data, response):
             return (data, response)
         default:
             XCTFail("Expected success, got \(result) instead", file: file, line: line)
